@@ -4,17 +4,9 @@
 
 ## 文件夹内容
 
-- `index.html`：发布版网页。单个文件包含全部样式和脚本，直接放到静态托管服务即可。
+- `index.html`：发布版网页。
 - `源文件/`：可编辑源码。`index.html` 结构、`styles.css` 样式、`app.js` 界面逻辑、`demo.js` 示例内容、`server.cjs` 本机预览服务器、`package.json` 脚本。
 
-## 发布给别人访问
-
-任选一种，都是免费的静态托管：
-
-- **GitHub Pages**：新建 Public 仓库，上传 `index.html` 到仓库根目录，再到 Settings → Pages 把 Source 设为 `Deploy from a branch`，分支 `main`、目录 `/(root)`，保存后网址形如 `https://用户名.github.io/仓库名/`。
-- **Netlify Drop**：打开 https://app.netlify.com/drop ，把这个文件夹或 `index.html` 拖进去，立即得到公开网址。
-
-两个服务都会提供可以直接发给别人的公网链接。
 
 ## 本机预览源码
 
@@ -24,7 +16,7 @@
 npm run dev
 ```
 
-然后打开 http://127.0.0.1:3000 。需要 Node.js 18 或更新版本，无需安装依赖。运行 `npm run check` 检查 JavaScript 语法。
+
 
 ## 已包含的界面功能
 
